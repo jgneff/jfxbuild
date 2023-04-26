@@ -14,7 +14,7 @@ fi
 gradle () (
     set -o xtrace
     bash gradlew --no-daemon \
-        -PCONF=Release -PPROMOTED_BUILD_NUMBER=11 \
+        -PCONF=Release -PPROMOTED_BUILD_NUMBER=12 \
         -PHUDSON_BUILD_NUMBER=101 -PHUDSON_JOB_NAME=jfx \
         -PCOMPILE_WEBKIT=true -PCOMPILE_MEDIA=true -PBUILD_LIBAV_STUBS=true \
         "$@"
